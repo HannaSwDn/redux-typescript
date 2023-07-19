@@ -12,9 +12,11 @@ type SelectProps = {
 };
 
 export const Select = ({ value, onChange, options }: SelectProps) => {
-    <Container>
-        <p>Select component</p>
-    </Container>
+    return (
+        <Container>
+            <p>Select component</p>
+        </Container>
+    )
 };
 
 const Container = styled.div``;

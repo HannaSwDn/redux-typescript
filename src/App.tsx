@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import { Select } from './components/Select';
 
 function App() {
     return (
         <Container>
             <h1>Hi</h1>
+            <Select />
         </Container>
     )
 }
